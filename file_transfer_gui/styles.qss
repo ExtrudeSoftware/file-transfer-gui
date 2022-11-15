@@ -1,0 +1,116 @@
+QWidget{
+	background-color: white;
+}
+
+QLabel{
+	font: bold 18px;
+	color: black;
+	bottom:15px;
+    font-family: "Helvetica Neue";
+}
+
+QLabel#two{
+    font: bold 18px;
+	color: black;
+	bottom:25px;
+    font-family: "Helvetica"
+}
+
+QLabel#small{
+    font: bold 15px;
+	color: black;
+	bottom:25px;
+    font-family: "Helvetica";
+}
+
+QLineEdit{
+	background-color: #ccc;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 5em;
+    padding: 6px;
+}
+
+QCheckBox
+{
+    spacing: 5px;
+    outline: none;
+    color: black;
+}
+
+QCheckBox:disabled
+{
+    color: #777777;
+}
+QCheckBox::indicator
+{
+    width: 18px;
+    height: 18px;
+}
+
+QPlainTextEdit{
+	background-color: gray;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: blue;
+    font: bold 14px;
+	font-family: "Consolas";
+    min-width: 5em;
+    padding: 6px;
+    height: 20px;
+}
+
+QPushButton{
+	background-color: #fff;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: black;
+    font: bold 14px;
+    min-width: 5em;
+    padding: 6px;
+	height:4em;
+}
+
+QPushButton#install{
+	background-color: #38b88d;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: black;
+    font: bold 14px;
+    min-width: 5em;
+    padding: 6px;
+    height:1em;
+}
+
+QPushButton#install:hover{
+	background-color: #4DA47A;
+}
+
+QPushButton:hover{
+	background-color: #ccc;
+}
+
+QLineEdit:pressed{
+	background-color: #f0f8ff;
+}
+
+QLineEdit:hover{
+    background-color: silver;
+}
+
+QLineEdit#err{
+	background-color: #ccc;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: red;
+    font: bold 14px;
+    min-width: 5em;
+    padding: 6px;
+}
